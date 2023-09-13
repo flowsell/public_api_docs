@@ -8,7 +8,7 @@ queue.
 To send a text message, you have to execute a request at:
 
 ```
-POST https://api/v1/waInstance{{idInstance}}/sendMessage/{{apiTokenInstance}}
+POST https://dev.flowsell.me/api/v1/waInstance{{idInstance}}/sendMessage/{{apiTokenInstance}}
 ```
 
 - `idInstance` - account unique number

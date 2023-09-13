@@ -7,7 +7,7 @@ The method checks WhatsApp account availability on a phone number.
 To check WhatsApp account availability, you have to execute request at:
 
 ```
-POST https://api/v1/waInstance{{idInstance}}/checkWhatsapp/{{apiTokenInstance}}
+POST https://dev.flowsell.me/api/v1/waInstance{{idInstance}}/checkWhatsapp/{{apiTokenInstance}}
 ```
 
 - `idInstance` - account unique number

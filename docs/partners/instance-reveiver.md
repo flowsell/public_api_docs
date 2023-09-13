@@ -7,7 +7,7 @@ The method is aimed for getting all the account instances created by the partner
 To get all the account instances you have to execute a GET request at:
 
 ```
-https://api/v1/partner/getInstances/{partnerToken}
+https://dev.flowsell.me/api/v1/partner/getInstances/{partnerToken}
 ```
 
 ## Response

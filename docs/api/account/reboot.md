@@ -6,7 +6,7 @@ The method is aimed for rebooting an account.
 To reboot the account, you have to execute a request at:
 
 ```
-GET https://v1/api/waInstance{{idInstance}}/reboot/{{apiTokenInstance}}
+GET https://dev.flowsell.me/api/v1/waInstance{{idInstance}}/reboot/{{apiTokenInstance}}
 ```
 
 - `idInstance` - account unique number

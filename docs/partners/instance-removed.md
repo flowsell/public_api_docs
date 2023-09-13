@@ -7,7 +7,7 @@ The method is aimed for deleting an instance of the partners's account.
 To delete an instance on the partner's part you have to execute a POST request at:
 
 ```
-https://api/v1/partner/deleteInstanceAccount/{partnerToken}
+https://dev.flowsell.me/api/v1/partner/deleteInstanceAccount/{partnerToken}
 ```
 
 ### Request parameters

@@ -7,7 +7,7 @@ The method is aimed for creating a messenger account instance on the partner's p
 To create an account instance on the partner's part you have to execute a POST request at:
 
 ```
-https://api/v1/partner/createInstance/{partnerToken}
+https://dev.flowsell.me/api/v1/partner/createInstance/{partnerToken}
 ```
 
 ### Request parameters

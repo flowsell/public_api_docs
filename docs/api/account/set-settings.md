@@ -9,7 +9,7 @@ The method is aimed for setting account settings.
 To set account settings, you have to execute a request at:
 
 ```
-POST https://v1/api/waInstance{{idInstance}}/setSettings/{{apiTokenInstance}}
+POST https://dev.flowsell.me/api/v1/waInstance{{idInstance}}/setSettings/{{apiTokenInstance}}
 ```
 
 - `idInstance` - account unique number
