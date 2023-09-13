@@ -1,0 +1,99 @@
+site_name: Flow API
+  
+nav:
+  - "Index": "index.md"
+  - "API documents":
+      - "Overview": "api/index.md"
+      - "Account":
+          - "Account - overview": "api/account/index.md"
+          - "Get account settings (instance)": "api/account/get-settings.md"
+          - "Set account settings (instance)": "api/account/set-settings.md"
+          - "Reboot account (instance)": "api/account/reboot.md"
+          - "Get QR code": "api/account/qr.md"
+      - "Sending":
+          - "Sending - overview": "api/sending/index.md"
+          - "Send text": "api/sending/text.md"
+          - "Send image via URL": "api/sending/image.md"
+      - "Receiving":
+          - "Receiving - overview": "api/receiving/index.md"
+          - "Incoming notification format":
+              - "Overview": "api/receiving/notifications-format/index.md"
+              - "Incoming messages":
+                  - "Overview": "api/receiving/notifications-format/incoming-message/index.md"
+                  - "Text": "api/receiving/notifications-format/incoming-message/text.md"
+                  - "Text or text with URL": "api/receiving/notifications-format/incoming-message/extended-text.md"
+                  - "Image": "api/receiving/notifications-format/incoming-message/image.md"
+                  - "Text with reaction": "api/receiving/notifications-format/incoming-message/reaction.md"
+              - "Outgoing messages":
+                  - "Overview": "api/receiving/notifications-format/outgoing-message/index.md"
+                  - "Messages sent from phone": "api/receiving/notifications-format/outgoing-message/phone.md"
+                  - "Outgoing message status": "api/receiving/notifications-format/outgoing-message/status.md"
+      - "Service methods":
+          - "Service methods - overview": "api/service/index.md"
+          - "Check Whatsapp availability": "api/service/check-whatsapp.md"
+      - "Rate limiter": "api/rate-limiter.md"
+  - "Partners":
+      - "Partners - overview": "partners/index.md"
+      - "Create instance": "partners/instance-creation.md"
+      - "Delete instance partner account": "partners/instance-removed.md"
+      - "Get all instances of an account created by partner": "partners/instance-reveiver.md"
+    
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  # Don't include MkDocs' JavaScript
+  include_search_page: true
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  lang: ru
+  features:
+    - navigation.instant
+  palette:
+    scheme: default
+    primary: #1a115f
+    accent: #1a115f
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Plugins
+plugins:
+  - search:
+      lang:
+        - en
+  - minify:
+      minify_html: true
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.toc:
+      permalink: "#"
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+        # - pymdownx.highlight:
+      #     linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
