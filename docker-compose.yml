@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  mkdocs:
+    container_name: mkdocs
+    image: polinux/mkdocs:latest
+    restart: always
+#    networks:
+#      - "flowsell_network"
+    ports:
+      - "8000:8000"
+    environment:
+      LIVE_RELOAD_SUPPORT: 'true'
+      ADD_MODULES: 'mkdocs-material mkdocs-material-extensions mkdocs-minify-plugin'
+      FAST_MODE: 'true'
+      DOCS_DIRECTORY: '/build'
+      GIT_REPO: 'https://github.com/flowsell/public_api_docs.git'
+      UPDATE_INTERVAL: 15
+      AUTO_UPDATE: 'true'
+    volumes:
+      - $HOME/.ssh/id_rsa:/root/.ssh/id_rsa

@@ -6,7 +6,7 @@ The method is aimed for getting the current account settings.
 To get the current account settings you have to execute a request at:
 
 ```
-GET https://v1/api/waInstance{{idInstance}}/getSettings/{{apiTokenInstance}}
+GET https://dev.flowsell.me/api/v1/waInstance{{idInstance}}/getSettings/{{apiTokenInstance}}
 ```
 
 - `idInstance` - account unique number

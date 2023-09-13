@@ -20,7 +20,7 @@ form of Account Status is generated.
 To get a QR code, you have to execute a request at:
 
 ```
-GET https://api.v1/waInstance{{idInstance}}/qr/{{apiTokenInstance}}
+GET https://dev.flowsell.me/api/v1/waInstance{{idInstance}}/qr/{{apiTokenInstance}}
 ```
 
 - `idInstance` - account unique number
@@ -62,7 +62,7 @@ GET https://api.v1/waInstance{{idInstance}}/qr/{{apiTokenInstance}}
 ## Example of getting a QR code in a browser
 
 ```
-https://api/v1/waInstance{{idInstance}}/{{apiTokenInstance}}
+https://dev.flowsell.me/api/v1/waInstance{{idInstance}}/{{apiTokenInstance}}
 ```
 
 - `idInstance` - account unique number
@@ -70,4 +70,4 @@ https://api/v1/waInstance{{idInstance}}/{{apiTokenInstance}}
 
 > You need to replace the idInstance and apiTokenInstance values with yours to get a link like this:
 >
-> `https://api/v1/waInstance11015502/ccc44689b17435537c15a939d0a478b71c3bd7d7d52d312345`
+> `https://dev.flowsell.me/api/v1/waInstance11015502/ccc44689b17435537c15a939d0a478b71c3bd7d7d52d312345`

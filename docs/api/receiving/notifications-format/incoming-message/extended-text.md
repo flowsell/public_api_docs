@@ -57,7 +57,7 @@ To get incoming webhooks of this type, two conditions must be true:
 		"buttonsMessage": null,
 		"buttonsResponseMessage": null,
 		"extendedTextMessageData": {
-          "text": "https://flow-api.com/docs/video"
+          "text": "https://flow-api.com/docs"
         },
 		"fileMessageData": null,
 		"listResponseMessage": null,

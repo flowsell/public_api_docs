@@ -1,5 +1,5 @@
 # Message sent from phone#
-The format of a message sent fromphone is identical to incoming message format, while incoming webhook type takes on the value outgoingMessageReceived.
+The format of a message sent from phone is identical to incoming message format, while incoming webhook type takes on the value outgoingMessageReceived.
 ### Webhook body example#
 ```json
 {

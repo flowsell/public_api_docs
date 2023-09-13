@@ -14,7 +14,7 @@ Images are sent in the same way as in native-mode WhatsApp. Description can be a
 To send a file, you have to execute a request at:
 
 ```
-POST https://api/v1/waInstance{{idInstance}}/sendFileByUrl/{{apiTokenInstance}}
+POST https://dev.flowsell.me/api/v1/waInstance{{idInstance}}/sendFileByUrl/{{apiTokenInstance}}
 ```
 
 - `idInstance` - account unique number
