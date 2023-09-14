@@ -3,6 +3,8 @@ site_url: https://my-website/docs/
   
 nav:
   - "Index": "index.md"
+  - "Quick start":
+      - "Before you start": "quick_start/before_work.md"
   - "API documents":
       - "Overview": "api/index.md"
       - "Account":
