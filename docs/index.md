@@ -5,6 +5,7 @@ In this documentation you will find information about working with the API of ou
  - ## API Documentation
     - [Overview](api/index.md) - This page provides general information about our API, including the basic principles of
       operation and the general structure of requests and responses.
+    - [Quick start](quick_start/before_work.md) - for quick start
     - Account
         - [Account - overview](api/account/index.md) - General information about working with the account.
         - [Get account settings (instance)](api/account/get-settings.md) - Instructions for retrieving account settings.

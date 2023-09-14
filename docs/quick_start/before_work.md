@@ -10,8 +10,6 @@ Before you start working with Flow API you are required to follow the below step
 6. [Set receiving incoming data](#6-set-receiving-incoming-data)
 
 
-#1-create-account-in-your-profile
-
 ## 1. Create account in Your profile
 To create Account go to [Your profile](https://cabinet.flowsell.me/account/profile). 
 After authorization in your profile, you will be able to create a user account. 
