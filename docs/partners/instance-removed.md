@@ -9,6 +9,7 @@ To delete an instance on the partner's part you have to execute a POST request a
 ```
 https://dev.flowsell.me/api/v1/partner/deleteInstanceAccount/{partnerToken}
 ```
+- `partnerToken` - You can get it in [Integration via API](https://cabinet.flowsell.me/templates/apicrm)
 
 ### Request parameters
 

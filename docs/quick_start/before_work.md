@@ -34,11 +34,10 @@ To do this, open [WhatsApp Business]('https://business.whatsapp.com/') applicati
 To execute HTTP API WhatsApp requests, you need to use the access parameters to User account. 
 Access parameters:
 
-- `idInstance` - account unique number. You can get it in [WhatsApp accounts](https://cabinet.flowsell.me/accounts/whats-app)
-- `apiTokenInstance` - account access key. You can get it in [Integration via API](https://cabinet.flowsell.me/templates/apicrm)
+- `idInstance` - account unique number. 
+- `apiTokenInstance` - account access key.
 
-Account access key can be changed if necessary, for example, if it is compromised.
-
+You can get it via [Get instances](../partners/instance-creation.md)
 
 ## 6. Information about webhooks
 - Information how you can set webhook is [here](../api/account/set-settings.md)
