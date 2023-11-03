@@ -9,6 +9,7 @@ To get all the account instances you have to execute a GET request at:
 ```
 https://dev.flowsell.me/api/v1/partner/getInstances/{partnerToken}
 ```
+- `partnerToken` - You can get it in [Integration via API](https://cabinet.flowsell.me/templates/apicrm)
 
 ## Response
 ### Response parameters#

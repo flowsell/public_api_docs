@@ -9,6 +9,7 @@ To create an account instance on the partner's part you have to execute a POST r
 ```
 https://dev.flowsell.me/api/v1/partner/createInstance/{partnerToken}
 ```
+- `partnerToken` - You can get it in [Integration via API](https://cabinet.flowsell.me/templates/apicrm)
 
 ### Request parameters
 
@@ -20,7 +21,7 @@ https://dev.flowsell.me/api/v1/partner/createInstance/{partnerToken}
 
 ```json
 {
-    "webhookUrl": "https://mysite.com/webhook/flow-api/",
+    "webhookUrl": "https://mysite.com/webhook/flow-api/"
 }
 ```
 
